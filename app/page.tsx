@@ -71,7 +71,7 @@ export default function LandingPage() {
                 <div className="relative">
                   <div className="absolute -inset-0.5 bg-gradient-to-r from-red-500 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-pulse"></div>
                   <Image
-                    src="https://blog.caregiverlist.com/wp-content/uploads/2014/12/netflix-800x450-1.jpg"
+                    src="https://www.whats-on-netflix.com/wp-content/uploads/2021/08/netflix-library-photo-1280x720.jpg"
                     alt="Streaming devices"
                     width={800}
                     height={400}
