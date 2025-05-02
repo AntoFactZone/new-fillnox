@@ -91,8 +91,8 @@ export default function LandingPage() {
           <div className="container mx-auto px-4">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
               {[
-                { icon: <Smartphone className="w-12 h-12 mx-auto mb-4 text-red-500" />, name: "ANDROID" },
-                { icon: <Smartphone className="w-12 h-12 mx-auto mb-4 text-red-500" />, name: "iOS" },
+                { icon: <Smartphone className="w-12 h-12 mx-auto mb-4 text-red-500" />, name: "ANDROID", isNew: true },
+                { icon: <Smartphone className="w-12 h-12 mx-auto mb-4 text-red-500" />, name: "iOS", isNew: true },
                 { icon: <Monitor className="w-12 h-12 mx-auto mb-4 text-red-500" />, name: "COMPUTER" },
                 { icon: <Tv className="w-12 h-12 mx-auto mb-4 text-red-500" />, name: "ANDROID TV", isNew: true },
               ].map((platform, index) => (
@@ -107,7 +107,7 @@ export default function LandingPage() {
                   <h3 className="text-lg font-medium">{platform.name}</h3>
                   {platform.isNew && (
                     <div className="absolute -top-2 -right-2 bg-yellow-500 text-black text-xs font-bold px-2 py-1 rounded-full animate-pulse">
-                      NEW
+                      COMING SOON
                     </div>
                   )}
                 </div>
@@ -116,41 +116,7 @@ export default function LandingPage() {
           </div>
         </section>
 
-        {/* CTA Section */}
-        <section className="py-16 bg-black">
-          <div className="container mx-auto px-4 md:px-6">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-              <div
-                className={`transition-all duration-1000 ${isLoaded ? "translate-x-0 opacity-100" : "-translate-x-20 opacity-0"}`}
-              >
-                <h2 className="text-2xl md:text-3xl font-bold mb-4">
-                  PC Users Just click on Go To Home button for movies and series.
-                </h2>
-                <p className="text-red-400 mb-6">Use Google Chrome and Mozilla Firefox for better performance.</p>
-                <Button
-                  onClick={handleGoHome}
-                  className="bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-md text-lg font-medium flex items-center gap-2 shadow-[0_0_15px_rgba(239,68,68,0.5)] hover:shadow-[0_0_20px_rgba(239,68,68,0.7)] transition-all"
-                >
-                  <Home className="w-5 h-5" />
-                  GO TO HOME
-                </Button>
-              </div>
-              <div
-                className={`relative transition-all duration-1000 delay-300 ${isLoaded ? "translate-x-0 opacity-100" : "translate-x-20 opacity-0"}`}
-              >
-                <div className="absolute inset-0 bg-gradient-to-r from-red-600/20 to-red-900/20 rounded-lg" />
-                <Image
-                  src="/placeholder.svg?height=400&width=600"
-                  alt="Streaming devices"
-                  width={600}
-                  height={400}
-                  className="rounded-lg"
-                />
-              </div>
-            </div>
-          </div>
-        </section>
-      </main>
+
 
       {/* Footer */}
       <footer className="bg-red-950 py-4 text-center text-sm relative z-10">
@@ -164,5 +130,4 @@ export default function LandingPage() {
         </div>
       </footer>
     </div>
-  )
-}
+  
