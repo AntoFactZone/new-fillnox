@@ -18,7 +18,7 @@ export default function PrivacyPolicy() {
           </h1>
 
           <div className="space-y-6 text-gray-300">
-            <p>Last updated: May 3, 2023</p>
+            <p>Last updated: May 3, 2025</p>
 
             <div className="bg-black/50 border border-red-900/30 rounded-lg p-6 shadow-lg">
               <h2 className="text-xl font-semibold mb-4 text-red-400">1. Introduction</h2>
@@ -77,7 +77,7 @@ export default function PrivacyPolicy() {
               <h2 className="text-xl font-semibold mb-4 text-red-400">5. Contact Us</h2>
               <p>If you have any questions about this privacy policy or our privacy practices, please contact us at:</p>
               <p className="mt-2">
-                <strong>Email:</strong> privacy@flinox.fun
+                <strong>Email:</strong> business.flinox@gmail.com
               </p>
             </div>
           </div>

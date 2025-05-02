@@ -71,14 +71,14 @@ export default function LandingPage() {
                 <div className="relative">
                   <div className="absolute -inset-0.5 bg-gradient-to-r from-red-500 to-purple-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-pulse"></div>
                   <Image
-                    src="/placeholder.svg?height=400&width=600"
+                    src="https://blog.caregiverlist.com/wp-content/uploads/2014/12/netflix-800x450-1.jpg"
                     alt="Streaming devices"
                     width={600}
                     height={400}
                     className="rounded-lg shadow-2xl border border-red-900/30 relative"
                   />
                   <div className="absolute -bottom-4 -right-4 bg-red-600 text-white px-4 py-2 rounded-md animate-bounce">
-                    HD Quality
+                    4k Quality
                   </div>
                 </div>
               </div>
@@ -123,7 +123,7 @@ export default function LandingPage() {
       {/* Footer */}
       <footer className="bg-red-950 py-4 text-center text-sm relative z-10">
         <div className="container mx-auto px-4">
-          <p>All Rights Reserved @2023</p>
+          <p>All Rights Reserved @2025</p>
           <div className="mt-2">
             <Link href="/privacy-policy" className="text-red-400 hover:text-red-300 underline">
               Privacy Policy
