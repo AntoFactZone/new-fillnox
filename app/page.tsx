@@ -73,7 +73,7 @@ export default function LandingPage() {
                   <Image
                     src="https://blog.caregiverlist.com/wp-content/uploads/2014/12/netflix-800x450-1.jpg"
                     alt="Streaming devices"
-                    width={600}
+                    width={800}
                     height={400}
                     className="rounded-lg shadow-2xl border border-red-900/30 relative"
                   />
