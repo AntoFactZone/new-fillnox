@@ -40,7 +40,7 @@ export function Header() {
           >
             <div className="flex items-center">
               <Zap className="w-5 h-5 mr-2 text-red-500" />
-              <span className="text-xl font-bold">PREMIUM</span>
+              <span className="text-xl font-bold">FLINOX</span>
             </div>
           </div>
 
@@ -87,7 +87,7 @@ export function Header() {
             >
               <div className="flex items-center space-x-2">
                 <div className="w-6 h-6 rounded-full bg-gradient-to-r from-red-500 to-purple-500 flex items-center justify-center">
-                  <span className="text-xs font-bold">F</span>
+                  <span className="text-xs font-bold"></span>
                 </div>
                 
               </div>
