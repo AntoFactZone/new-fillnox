@@ -116,7 +116,9 @@ export default function LandingPage() {
           </div>
         </section>
 
-
+       {/* CTA Section */}
+       
+       </main>
 
       {/* Footer */}
       <footer className="bg-red-950 py-4 text-center text-sm relative z-10">
@@ -130,4 +132,5 @@ export default function LandingPage() {
         </div>
       </footer>
     </div>
-  
+  )
+}
