@@ -49,7 +49,7 @@ export function Header() {
             {[
               { name: "HOME", icon: <Home className="w-4 h-4" />, href: "/", active: true },
               {
-                name: "STATUS",
+                name: "SERVERS STATUS",
                 icon: <Activity className="w-4 h-4" />,
                 href: "http://status.flinox.site/",
                 target: "_blank",
