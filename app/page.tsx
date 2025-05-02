@@ -69,7 +69,7 @@ export default function LandingPage() {
                 }`}
               >
                 <div className="relative">
-                  <div className="absolute -inset-0.5 bg-gradient-to-r from-red-500 to-purple-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-pulse"></div>
+                  <div className="absolute -inset-0.5 bg-gradient-to-r from-red-500 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-pulse"></div>
                   <Image
                     src="https://blog.caregiverlist.com/wp-content/uploads/2014/12/netflix-800x450-1.jpg"
                     alt="Streaming devices"
