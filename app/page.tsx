@@ -38,7 +38,7 @@ export default function LandingPage() {
                       isLoaded ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
                     }`}
                   >
-                    Premium Streaming Experience
+                    Premium Streaming Experience For Free
                   </h2>
                 </div>
                 <p
