@@ -47,13 +47,13 @@ export function Header() {
           <nav className="hidden md:flex space-x-1">
             {[
               { name: "HOME", icon: <Home className="w-4 h-4" />, href: "/", active: true },
-              {
+               /* {
                 name: "SERVERS STATUS",
                 icon: <Activity className="w-4 h-4" />,
                 href: "http://status.flinox.site/",
                 target: "_blank",
               },
-             /* { name: "OUR OFFICIAL SITES", icon: <Film className="w-4 h-4" />, href: "/movie-sites" },*/
+            { name: "OUR OFFICIAL SITES", icon: <Film className="w-4 h-4" />, href: "/movie-sites" },*/
               { name: "PRIVACY POLICY", icon: <Zap className="w-4 h-4" />, href: "/privacy-policy" },
             ].map((item, index) => (
               <Link
