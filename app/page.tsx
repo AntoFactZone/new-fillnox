@@ -14,7 +14,7 @@ export default function LandingPage() {
   }, [])
 
   const handleGoHome = () => {
-    window.location.href = "https://flinox.fun/movie-sites"
+    window.location.href = "https://flinox.site"
   }
 
   return (
@@ -122,8 +122,7 @@ export default function LandingPage() {
               {platform.icon}
               <h3 className="text-white font-bold">{platform.name}</h3>
               {platform.isNew && (
-                <span className="absolute top-2 right-2 bg-red-600 text-white text-xs px-2 py-1 rounded-full">NEW</span>
-                <span className="absolute top-2 right-2 bg-red-600 text-white text-xs px-2 py-1 rounded-full">UPCOMING</span>
+                <><span className="absolute top-2 right-2 bg-red-600 text-white text-xs px-2 py-1 rounded-full">NEW</span><span className="absolute top-2 right-2 bg-red-600 text-white text-xs px-2 py-1 rounded-full">UPCOMING</span></>
               )}
             </Link>
           ))}
