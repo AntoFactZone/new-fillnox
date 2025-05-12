@@ -5,6 +5,17 @@ import Link from "next/link"
 import { Home, Monitor, Smartphone, Tv } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { AnimatedBackground } from "@/components/animated-background"
+import Head from 'next/head';
+
+const Favicon = () => {
+  return (
+    <Head>
+      <link rel="icon" href="/favicon.icon" />
+    </Head>
+  );
+};
+
+export default Favicon;
 
 export default function LandingPage() {
   const [isLoaded, setIsLoaded] = useState(false)
