@@ -1,5 +1,5 @@
 "use client"
-
+import { PlatformsSection } from "@/components/platforms-section"
 import { useEffect, useState } from "react"
 import Image from "next/image"
 import Link from "next/link"
@@ -86,35 +86,17 @@ export default function LandingPage() {
           </div>
         </section>
 
-        {/* Platforms Section */}
-        <section className="bg-gradient-to-b from-black to-red-950 py-12">
-          <div className="container mx-auto px-4">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
-              {[
-                { icon: <Smartphone className="w-12 h-12 mx-auto mb-4 text-red-500" />, name: "ANDROID", isNew: true },
-                { icon: <Smartphone className="w-12 h-12 mx-auto mb-4 text-red-500" />, name: "iOS", isNew: true },
-                { icon: <Monitor className="w-12 h-12 mx-auto mb-4 text-red-500" />, name: "COMPUTER" },
-                { icon: <Tv className="w-12 h-12 mx-auto mb-4 text-red-500" />, name: "ANDROID TV", isNew: true },
-              ].map((platform, index) => (
-                <div
-                  key={platform.name}
-                  className={`bg-black/50 p-6 rounded-lg border border-red-800/30 hover:border-red-500 transition-all hover:scale-105 cursor-pointer relative transform transition-all duration-500 hover:shadow-[0_0_15px_rgba(239,68,68,0.5)] ${
-                    isLoaded ? "translate-y-0 opacity-100" : "translate-y-20 opacity-0"
-                  }`}
-                  style={{ transitionDelay: `${800 + index * 100}ms` }}
-                >
-                  {platform.icon}
-                  <h3 className="text-lg font-medium">{platform.name}</h3>
-                  {platform.isNew && (
-                    <div className="absolute -top-2 -right-2 bg-yellow-500 text-black text-xs font-bold px-2 py-1 rounded-full animate-pulse">
-                      COMING SOON
-                    </div>
-                  )}
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
+      export default function Page() {
+  return (
+    <main>
+      {/* Platforms Section */}
+      <PlatformsSection />
+    </main>
+  )
+}
+
+
+        
 
        {/* CTA Section */}
        
