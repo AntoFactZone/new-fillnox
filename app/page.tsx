@@ -23,7 +23,7 @@ export default function LandingPage() {
   }, [])
 
   const handleGoHome = () => {
-    window.location.href = "https://flinox.site/register/"
+    window.location.href = "https://flinox.site/"
   }
 
   return (
