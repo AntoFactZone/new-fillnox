@@ -55,6 +55,7 @@ export function Header() {
                 target: "_blank",
               },
               { name: "OUR OFFICIAL SITES", icon: <Film className="w-4 h-4" />, href: "/movie-sites" },
+              { name: "OUR OFFICIAL APP", icon: <Film className="w-4 h-4" />, href: "/Movie-App" },
               { name: "PRIVACY POLICY", icon: <Zap className="w-4 h-4" />, href: "/privacy-policy" },
             ].map((item, index) => (
               <Link
