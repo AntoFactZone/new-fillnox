@@ -94,24 +94,24 @@ export default function LandingPage() {
               icon: <Smartphone className="w-12 h-12 mx-auto mb-4 text-red-500" />,
               name: "ANDROID",
               isNew: true,
-              href: "/platforms/android",
+              href: "",
             },
             {
               icon: <Smartphone className="w-12 h-12 mx-auto mb-4 text-red-500" />,
               name: "iOS",
-              isNew: true,
-              href: "/platforms/ios",
+              isUPCOMING: true,
+              href: "",
             },
             {
               icon: <Monitor className="w-12 h-12 mx-auto mb-4 text-red-500" />,
               name: "COMPUTER",
-              href: "/platforms/computer",
+              href: "",
             },
             {
               icon: <Tv className="w-12 h-12 mx-auto mb-4 text-red-500" />,
               name: "ANDROID TV",
-              isNew: true,
-              href: "/platforms/android-tv",
+              isUPCOMING: true,
+              href: "",
             },
           ].map((platform, index) => (
             <Link
@@ -122,7 +122,7 @@ export default function LandingPage() {
               {platform.icon}
               <h3 className="text-white font-bold">{platform.name}</h3>
               {platform.isNew && (
-                <span className="absolute top-2 right-2 bg-red-600 text-white text-xs px-2 py-1 rounded-full">NEW</span>
+                <><span className="absolute top-2 right-2 bg-red-600 text-white text-xs px-2 py-1 rounded-full">NEW</span><span className="absolute top-2 right-2 bg-red-600 text-white text-xs px-2 py-1 rounded-full">UPCOMING</span></>
               )}
             </Link>
           ))}
