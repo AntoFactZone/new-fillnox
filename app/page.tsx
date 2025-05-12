@@ -15,8 +15,6 @@ const Favicon = () => {
   );
 };
 
-export default Favicon;
-
 export default function LandingPage() {
   const [isLoaded, setIsLoaded] = useState(false)
 
@@ -25,7 +23,7 @@ export default function LandingPage() {
   }, [])
 
   const handleGoHome = () => {
-    window.location.href = "https://flinox.site"
+    window.location.href = "https://flinox.site/register/"
   }
 
   return (
