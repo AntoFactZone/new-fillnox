@@ -6,7 +6,7 @@ import { Header } from "@/components/header"
 export const metadata = {
   title: "Flinox - Premium Streaming",
   description: "Watch thousands of TV series and movies with original audio and HD video quality",
-    generator: 'v0.dev'
+    generator: 'Flinox Studio'
 }
 
 export default function RootLayout({

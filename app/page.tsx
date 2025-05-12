@@ -15,7 +15,7 @@ export default function LandingPage() {
   }, [])
 
   const handleGoHome = () => {
-    window.location.href = "https://flinox.fun"
+    window.location.href = "https://flinox.fun/movie-sites"
   }
 
   return (

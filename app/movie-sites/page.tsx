@@ -14,7 +14,7 @@ export default function MovieSites() {
   }, [])
 
   const movieSites = [
-    { name: "flinox.fun", url: "https://flinox.fun", status: "Online" },
+    { name: "flinox.site", url: "https://flinox.site", status: "Online" },
   ]
 
   return (
