@@ -85,7 +85,8 @@ export default function LandingPage() {
           </div>
         </section>
 
-        {/* Platforms Section */}
+          {/* Platforms Section} /* Platforms Section
+        
         <section className="bg-gradient-to-b from-black to-red-950 py-12">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
@@ -122,7 +123,7 @@ export default function LandingPage() {
               {platform.icon}
               <h3 className="text-white font-bold">{platform.name}</h3>
               {platform.isNew && (
-                <><span className="absolute top-2 right-2 bg-red-600 text-white text-xs px-2 py-1 rounded-full">NEW</span><span className="absolute top-2 right-2 bg-red-600 text-white text-xs px-2 py-1 rounded-full">UPCOMING</span></>
+                <><span className="absolute top-2 right-2 bg-red-600 text-white text-xs px-2 py-1 rounded-full">NEW</span>
               )}
             </Link>
           ))}
